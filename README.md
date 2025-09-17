@@ -18,4 +18,4 @@ Você vai criar um programa para gerenciar diferentes tipos de contas bancárias
 
 ## Desafio Adicional
 
-Como desafio adicional, adicione um `enum` chamado `TipoConta` para representar os diferentes tipos de contas, como `CORRENTE` e `POUPANCA`. Modifique as classes `ContaCorrente` e `ContaPoupanca` para usar esse enum e adicione um método sobrecarregado em uma classe principal (`BancoKonoha`, por exemplo) para realizar transferências entre contas.
+Como desafio adicional, adicione um `enum` chamado `TipoConta` para representar os diferentes tipos de contas, como `CORRENTE` e `POUPANCA`. Modifique as classes `ContaCorrente` e `ContaPoupanca` para usar esse enum e adicione um método sobrecarregado em uma classe principal (`Banco`, por exemplo) para realizar transferências entre contas.
