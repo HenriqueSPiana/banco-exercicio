@@ -9,12 +9,11 @@ public abstract class ContaBancaria implements Conta{
 
     @Override
     public void consultarSaldo() {
-
+        System.out.println("voce, "+ this.dono+" tem um total de R$:" + this.saldo);
     }
 
     @Override
     public void depositar(double valor) {
-
     }
 
     public ContaBancaria(String dono, double saldo, TipoConta tipoConta) {

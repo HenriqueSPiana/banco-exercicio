@@ -5,7 +5,8 @@ public class ContaPoupanca extends ContaBancaria{
 
     public void depositar(double valor){
 
-        this.saldo = saldo+ (valor - (valor * 0.01));
+        this.saldo = saldo+ (valor * 0.99);
+        System.out.println("Foi retido 1% do valor que voce depositou por ser uma conta poupança");
 
 
     }
